@@ -28,7 +28,7 @@ export default function Scaffold({children}: Props) {
                     <p className={"text-2xl font-logo font-semibold"}>SFCraft</p>
                 </Group>
             </AppShell.Header>
-            <AppShell.Main>{children}</AppShell.Main>
+            <AppShell.Main className={"flex"}>{children}</AppShell.Main>
         </AppShell>
     )
 }
