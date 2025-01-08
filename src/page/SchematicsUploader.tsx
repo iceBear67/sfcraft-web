@@ -96,13 +96,13 @@ function Main() {
 
 function SchematicsUploader() {
     return (
-        <>
+        <div className={"flex w-full"}>
             <Center className={"h-full w-full"}>
                 <Card shadow={"sm"} padding={"lg"} radius={"md"}>
                     <Main/>
                 </Card>
             </Center>
-        </>
+        </div>
     )
 }
 
