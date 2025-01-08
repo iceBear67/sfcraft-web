@@ -1,4 +1,4 @@
-import {AppShell, Burger, Group, Text} from "@mantine/core";
+import {AppShell, Burger, Group} from "@mantine/core";
 import {useDisclosure} from "@mantine/hooks";
 
 type Props = {
@@ -12,7 +12,7 @@ export default function Scaffold({children}: Props) {
         <AppShell
             header={{height: 60}}
             navbar={{
-                width: 300,
+                width: 0,
                 breakpoint: 'sm',
                 collapsed: { mobile: !opened },
             }}
